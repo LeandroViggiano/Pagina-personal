@@ -1,123 +1,61 @@
-<!DOCTYPE html>
-<html lang="es">
+.header{
+    display: flex;
+    justify-content: center;
+}
+.foto{
+    margin: 0px;
+    height: 150px;
+    color: black;
+   }
+   main {
+    display: flex;
+    flex-direction: row;
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Pagina personal</title>
-</head>
+}
 
-<body>
-    <header>
-        <div class="header">
-            <div>
-                <img src="./foto mark.jpg" alt="foto personal" class="foto">
-                <a href="https://es.wikipedia.org/wiki/Mark_Zuckerberg" class="nombre">Mark Zuckerberg</a>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="menu">
-            <ul class="lista">
-                <li>Información personal</li>
-                <li>Habilidades</li>
-                <li>Educación</li>
-                <li>Experiencias</li>
-                <li><a href="#Intereses"> Intereses</a></li>
-            </ul>
-        </div>
-        <div class="info">
-            <div>
-                <h2>Información personal</h2>
-                <h3>Lenguajes</h3>
-                <p>
-                    Ingles: Nativo <br>
-                    Chino mandarin: Intermedio <br>
-                    Frances: Avanzado <br>
-                    Hebreo: Intermedio <br>
-                    Latin: Avanzado <br>
-                    Griego antiguo: Intermedio
-                </p>
-                <h3>Logros</h3>
-                <ul>
-                    <li>Fundó dos de las aplicaciones mas utilizadas en Harvard</li>
-                    <li>Mas de 10 premios en matematicas, astronomía y física</li>
-                    <li>Competente en seis idiomas</li>
-                    <li>Desarrolló su primer aplicación de software a los 12 años</li>
-                    <li>Capitán del equipo de esgrima en la preparatoria</li>
-                </ul>
-            </div>
-            <div>
-                <h2>Habilidades y tegnologias</h2>
-                <ul>
-                    <li>Desarrollo de productos</li>
-                    <li>Inteligencia artificial</li>
-                    <li>HTML y CSS</li>
-                    <li>PHP</li>
-                    <li>Artic Basic</li>
-                </ul>
-            </div>
-            <div>
-                <h2>Educación</h2>
-                <ul>
-                    <li>Psicología de la computación <br>
-                        En la Universidad de Harvard</li>
-                    <li>Estudios clasicos y ciencias <br>
-                        En la Academia Phillips Exeter</li>
-                </ul>
-            </div>
-            <h2>Experiencia en desarrollo de software</h2>
-            <h3>Facemash</h3>
-            <p>Un sitio web orientado a las redes sociales que permite a los cargadores compilar dos fotos de
-                estudiantes una al lado de la otra y dejarles elegir quién fue "hut" y quien no fue</p>
-            <ul>
-                <li>Entrenó a 450 visitantes durante el primer día que votaron al menos 22,000 veces</li>
-                <li>Abrumó la red de Harward, lo que provocó el cierre del sitio web</li>
-            </ul>
-            <h3>CourseMatch</h3>
-            <p>La primera mini-social medial que permite a los estudiantes universitarios tomar decisiones de
-                selección
-                de clases en base a las elecciones de otros estudiantes y también para ayudarlos a formar grupos de
-                estudio
-            </p>
-            <h3>Synapse Media Player</h3>
-            <p>Synapse es una aplicación que utiliza inteligencia artificial para aprender los hábitos de escucha
-                del
-                usuario y luego recomienda música escuchada en el gustos del oyente</p>
-            <ul>
-                <li>Apareció en SlashDot y obtuvo una calificación de 5 por PC Maj</li>
-                <li>llegó a +1000 descargas durante el primer mes y 10.000 hasta ahora</li>
-                <li>Atrajo el interés de Microsoft y AOL y recibió más de 50 invitaciones laborales</li>
-            </ul>
-            <h2 id="Intereses" class="intereses">Intereses</h2>
-            <ul>
-                <li>La Odisa y la Iliada</li>
-                <li>Tenis</li>
-                <li>Remo</li>
-                <li>Esgrima</li>
-                <li>Programacion</li>
-            </ul>
-        </div>
-    </main>
-    <footer>
-        <div class="contacto">
-            <div>
-                <img src="./logo_instagram.png" class="redes">
-                <p class="usuarios">zuck</p>
-            </div>
-            <div>
-                <img src="./logo twitter.png" class="redes">
-                <p class="usuarios">finkd</p>
-            </div>
-            <div>
-                <img src="./logo gmail.webp" class="redes">
-                <p class="usuarios">zuck@fbmcom</p>
-            </div>
-        </div>
+.menu {
+    width: 300px;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    text-align: center;
+  
 
-    </footer>
-</body>
+}
 
-</html>
+.info {
+    background-color: rgb(172, 172, 172);
+    padding-left: 50px;
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+    line-height: 50px;
+    color: white;
+}
+
+.lista :hover {
+
+    background-color: rgba(255, 255, 255, 0.76);
+    color: black;
+    border: black solid 3px;
+
+}
+   .contacto{
+    display: flex;
+    justify-content: center;
+   }
+.redes{
+    height: 30px;
+    margin: 0px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+.usuarios{
+    height: 30px;
+    margin: 0px;
+    
+}
+.intereses{
+    color: white;
+}
