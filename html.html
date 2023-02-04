@@ -12,26 +12,25 @@
 <body>
     <header>
         <div class="header">
-            <div>
-                <img src="./foto mark.jpg" alt="foto personal" class="foto">
-                <a href="https://es.wikipedia.org/wiki/Mark_Zuckerberg" class="nombre">Mark Zuckerberg</a>
-            </div>
+
+            <img src="./foto mark.jpg" alt="foto personal" class="foto">
+            <h1><a href="https://es.wikipedia.org/wiki/Mark_Zuckerberg" class="nombre" target="_blank">Mark Zuckerberg</a></h1>
+
         </div>
     </header>
     <main>
-        <p>rama fernando</p>
         <div class="menu">
             <ul class="lista">
-                <li>Información personal</li>
-                <li>Habilidades</li>
-                <li>Educación</li>
-                <li>Experiencias</li>
-                <li><a href="#Intereses"> Intereses</a></li>
+                <li><a href="#Información personal" class="vinculo">Información personal</a></li>
+                <li><a href="#Habilidades y tegnologias" class="vinculo">Habilidades y tegnologias</a></li>
+                <li><a href="#Educación" class="vinculo">Educación</a></li>
+                <li><a href="#Experiencia en desarrollo de software" class="vinculo">Experiencias</a></li>
+                <li><a href="#Intereses" class="vinculo">Intereses</a></li>
             </ul>
         </div>
         <div class="info">
             <div>
-                <h2>Información personal</h2>
+                <h2 id="Información personal">Información personal</h2>
                 <h3>Lenguajes</h3>
                 <p>
                     Ingles: Nativo <br>
@@ -51,7 +50,7 @@
                 </ul>
             </div>
             <div>
-                <h2>Habilidades y tegnologias</h2>
+                <h2 id="Habilidades y tegnologias">Habilidades y tegnologias</h2>
                 <ul>
                     <li>Desarrollo de productos</li>
                     <li>Inteligencia artificial</li>
@@ -61,7 +60,7 @@
                 </ul>
             </div>
             <div>
-                <h2>Educación</h2>
+                <h2 id="Educación">Educación</h2>
                 <ul>
                     <li>Psicología de la computación <br>
                         En la Universidad de Harvard</li>
@@ -69,7 +68,7 @@
                         En la Academia Phillips Exeter</li>
                 </ul>
             </div>
-            <h2>Experiencia en desarrollo de software</h2>
+            <h2 id="Experiencia en desarrollo de software">Experiencia en desarrollo de software</h2>
             <h3>Facemash</h3>
             <p>Un sitio web orientado a las redes sociales que permite a los cargadores compilar dos fotos de
                 estudiantes una al lado de la otra y dejarles elegir quién fue "hut" y quien no fue</p>
@@ -105,20 +104,24 @@
     <footer>
         <div class="contacto">
             <div>
-                <img src="./logo_instagram.png" class="redes">
-                <p class="usuarios">zuck</p>
+                <a href="https://instagram.com/zuck?igshid=YmMyMTA2M2Y=" target="_blank" class="redes">
+                    <img src="./logo_instagram.png" class="img-redes">
+                    <p class="usuarios">zuck</p>
+                </a>
             </div>
             <div>
-                <img src="./logo twitter.png" class="redes">
-                <p class="usuarios">finkd</p>
+                <a href="https://twitter.com/finkd?lang=es" target="_blank" class="redes">
+                    <img src="./logo twitter.png" class="img-redes">
+                    <p class="usuarios">finkd</p>
+                </a>
             </div>
-            <div>
-                <img src="./logo gmail.webp" class="redes">
-                <p class="usuarios">zuck@fbmcom</p>
+            <div class="redes">
+                
+                    <img src="./logo gmail.webp" class="img-redes">
+                    <p class="usuarios">zuck@fb.com</p>
+                
             </div>
         </div>
 
     </footer>
 </body>
-
-</html>
